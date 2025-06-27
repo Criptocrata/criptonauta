@@ -46070,12 +46070,8 @@ a.u-link.u-text-hover-color-var:hover {
 
 
 /*end-variables sitestylecss*/
- .u-header {
-  background-image: none;
-}
-
 .u-header .u-sheet-1 {
-  min-height: 112px;
+  min-height: 160px;
 }
 
 .u-header .u-image-1 {
@@ -46090,20 +46086,29 @@ a.u-link.u-text-hover-color-var:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -84px 0 22px auto;
+  margin: -76px 66px 0 auto;
 }
 
 .u-header .u-nav-1 {
   font-size: 1rem;
 }
 
-.u-header .u-nav-4 {
+.u-header .u-nav-5 {
   font-size: 1.25rem;
+}
+
+.u-header .u-shopping-cart-1 {
+  height: 48px;
+  width: 48px;
+  margin: -36px 18px 50px auto;
+}
+
+.u-header .u-icon-1 {
+  padding: 0;
 }
 @media (max-width: 1199px) {
   .u-header .u-menu-1 {
     width: auto;
-    margin-top: -84px;
   }
 }
 

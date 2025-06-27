@@ -1,5 +1,5 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 1251px;
+  min-height: 972px;
 }
 
 .u-section-1 .u-text-1 {
@@ -8,14 +8,13 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
-  width: 166px;
   font-size: 3.75rem;
-  margin: 111px auto 0;
+  width: 166px;
+  margin: 0 auto;
 }
 
 .u-section-1 .u-list-1 {
-  margin-top: 65px;
-  margin-bottom: 60px;
+  margin: 0;
 }
 
 .u-section-1 .u-repeater-1 {
@@ -133,6 +132,11 @@
   .u-section-1 .u-text-1 {
     margin-left: 68px;
     margin-right: 68px;
+  }
+
+  .u-section-1 .u-list-1 {
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-1 .u-repeater-1 {
