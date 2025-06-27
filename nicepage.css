@@ -46093,14 +46093,14 @@ a.u-link.u-text-hover-color-var:hover {
   font-size: 1rem;
 }
 
-.u-header .u-nav-5 {
+.u-header .u-nav-2 {
   font-size: 1.25rem;
 }
 
 .u-header .u-shopping-cart-1 {
-  height: 48px;
-  width: 48px;
-  margin: -36px 18px 50px auto;
+  height: 25px;
+  width: 25px;
+  margin: -36px 41px 60px auto;
 }
 
 .u-header .u-icon-1 {
@@ -46109,6 +46109,12 @@ a.u-link.u-text-hover-color-var:hover {
 @media (max-width: 1199px) {
   .u-header .u-menu-1 {
     width: auto;
+  }
+
+  .u-header .u-shopping-cart-1 {
+    height: 25px;
+    width: 25px;
+    margin-right: 41px;
   }
 }
 
