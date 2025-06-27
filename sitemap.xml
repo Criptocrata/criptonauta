@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://criptonauta.xyz/Inicio.html</loc>
-        <lastmod>2025-06-15T20:57:40+02:00</lastmod>
-    </url>
-    <url>
-        <loc>https://criptonauta.xyz/Acerca-de.html</loc>
-        <lastmod>2025-06-14T19:26:28+02:00</lastmod>
-    </url>
-    <url>
         <loc>https://criptonauta.xyz/Contacto.html</loc>
-        <lastmod>2025-06-14T19:26:28+02:00</lastmod>
+        <lastmod>2025-06-27T18:31:21+02:00</lastmod>
     </url>
     <url>
-        <loc>https://criptonauta.xyz/Página-2.html</loc>
-        <lastmod>2025-06-15T21:02:58+02:00</lastmod>
+        <loc>https://criptonauta.xyz/Blog.html</loc>
+        <lastmod>2025-06-27T18:34:35+02:00</lastmod>
+    </url>
+    <url>
+        <loc>https://criptonauta.xyz/Inicio.html</loc>
+        <lastmod>2025-06-27T18:44:45+02:00</lastmod>
     </url>
     <url>
         <loc>https://criptonauta.xyz/index.html</loc>
-        <lastmod>2025-06-15T21:02:58+02:00</lastmod>
+        <lastmod>2025-06-27T18:44:45+02:00</lastmod>
+    </url>
+    <url>
+        <loc>https://criptonauta.xyz/Preguntas-frecuentes.html</loc>
+        <lastmod>2025-06-27T18:41:26+02:00</lastmod>
     </url>
     <url>
         <loc>https://criptonauta.xyz/blog/enviar.html</loc>
@@ -46,6 +46,6 @@
     </url>
     <url>
         <loc>https://criptonauta.xyz/blog/blog.html</loc>
-        <lastmod>2025-06-15T21:03:03+02:00</lastmod>
+        <lastmod>2025-06-27T18:44:50+02:00</lastmod>
     </url>
 </urlset>
