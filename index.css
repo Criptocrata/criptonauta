@@ -11,6 +11,7 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 .u-section-1 .u-shape-2 {
@@ -30,8 +31,8 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  height: 853px;
-  margin-top: 75px;
+  height: 760px;
+  margin-top: 167px;
   margin-bottom: 0;
 }
 
@@ -70,6 +71,7 @@
 
 @media (max-width: 1199px) {
   .u-section-1 .u-group-1 {
+    margin-top: -74px;
     height: auto;
   }
 }
@@ -520,22 +522,22 @@
     min-height: 224px;
   }
 }.u-section-4 .u-sheet-1 {
-  min-height: 331px;
+  min-height: 278px;
 }
 
 .u-section-4 .u-group-1 {
   width: 985px;
-  min-height: 331px;
+  min-height: 232px;
   height: auto;
-  margin: 0 auto;
+  margin: 31px auto 16px;
 }
 
 .u-section-4 .u-container-layout-1 {
-  padding: 30px 30px 75px;
+  padding: 5px 30px 17px;
 }
 
 .u-section-4 .u-text-1 {
-  margin: 6px auto 0 0;
+  margin: 0 auto 0 0;
 }
 
 .u-section-4 .u-text-2 {
@@ -552,10 +554,6 @@
 @media (max-width: 991px) {
   .u-section-4 .u-group-1 {
     width: 720px;
-  }
-
-  .u-section-4 .u-container-layout-1 {
-    padding-bottom: 30px;
   }
 }
 
@@ -575,17 +573,17 @@
     width: 340px;
   }
 }.u-section-5 .u-sheet-1 {
-  min-height: 222px;
+  min-height: 194px;
 }
 
 .u-section-5 .u-text-1 {
   font-size: 2.25rem;
-  margin: 56px auto 0;
+  margin: 2px auto 0;
 }
 
 .u-section-5 .u-text-2 {
   line-height: 1.8;
-  margin: 20px 49px 6px;
+  margin: 15px 49px 37px;
 }
 
 @media (max-width: 1199px) {
@@ -604,14 +602,14 @@
 }
 
 .u-section-6 .u-text-1 {
-  width: 306px;
   font-size: 2.25rem;
-  margin: 38px auto 0;
+  width: 306px;
+  margin: 26px auto 0;
 }
 
 .u-section-6 .u-text-2 {
   line-height: 1.8;
-  margin: 9px 49px 0;
+  margin: 0 49px 21px;
 }
 
 @media (max-width: 1199px) {
@@ -625,7 +623,6 @@
 @media (max-width: 767px) {
   .u-section-6 .u-text-2 {
     width: 540px;
-    margin-bottom: 60px;
   }
 }
 
@@ -649,7 +646,7 @@
 
 .u-section-7 .u-text-2 {
   line-height: 1.8;
-  margin: 19px 49px 6px;
+  margin: 7px 49px 30px;
 }
 
 @media (max-width: 1199px) {
