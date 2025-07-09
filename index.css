@@ -1,6 +1,6 @@
  .u-section-1 {
   background-image: none;
-  min-height: 1139px;
+  min-height: 0;
 }
 
 .u-section-1 .u-shape-1 {
@@ -31,8 +31,8 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  height: 760px;
-  margin-top: 167px;
+  height: 426px;
+  margin-top: 39px;
   margin-bottom: 0;
 }
 
@@ -42,7 +42,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin-top: -75px;
+  margin-top: -117px;
   margin-bottom: 0;
   height: auto;
   min-height: 286px;
@@ -141,7 +141,7 @@
 
 .u-section-2 .u-image-1 {
   min-height: 357px;
-  background-image: url("images/a2eb8410bfb383e4182267680bba249525276f6a10a6ccdc2a29dc5db53dc49e4610e38629d0aebc0f2f34f3a78f781ea259cd3b1250b82a8a3b4e_1280.jpg");
+  background-image: url("/images/a2eb8410bfb383e4182267680bba249525276f6a10a6ccdc2a29dc5db53dc49e4610e38629d0aebc0f2f34f3a78f781ea259cd3b1250b82a8a3b4e_1280.jpg");
   background-position: 50% 50%;
 }
 
@@ -180,7 +180,7 @@
 
 .u-section-2 .u-image-2 {
   min-height: 375px;
-  background-image: url("images/fbfb9ced0077c28dfa95aca4720575f31bb87f50a8f628c365d2e49c1c2b0721dfdb70b345b1349d87f1ea01c0a2777dfcf9bb13e7083d45c031ca_1280.jpg");
+  background-image: url("/images/fbfb9ced0077c28dfa95aca4720575f31bb87f50a8f628c365d2e49c1c2b0721dfdb70b345b1349d87f1ea01c0a2777dfcf9bb13e7083d45c031ca_1280.jpg");
   background-position: 50% 50%;
 }
 
@@ -321,7 +321,7 @@
 
 .u-section-3 .u-image-1 {
   min-height: 357px;
-  background-image: url("images/crypto-wallets-3713850751.jpg");
+  background-image: url("/images/crypto-wallets-3713850751.jpg");
   background-position: 50% 50%;
 }
 
@@ -365,7 +365,7 @@
 
 .u-section-3 .u-image-2 {
   min-height: 375px;
-  background-image: url("images/2c245935d53e5f7282ef9e4292a13423fb225ef0adb77d00b1ecaf0464ca3cb95176b16dc73223f98aeeb9feb4221545f147f3d8647c75d9fdd6dc_1280.jpg");
+  background-image: url("/images/2c245935d53e5f7282ef9e4292a13423fb225ef0adb77d00b1ecaf0464ca3cb95176b16dc73223f98aeeb9feb4221545f147f3d8647c75d9fdd6dc_1280.jpg");
   background-position: 50% 50%;
 }
 
@@ -595,7 +595,7 @@
 
 @media (max-width: 575px) {
   .u-section-5 .u-text-1 {
-    font-size: 1.875rem;
+    font-size: 1.8rem;
   }
 }.u-section-6 .u-sheet-1 {
   min-height: 155px;
@@ -628,7 +628,7 @@
 
 @media (max-width: 575px) {
   .u-section-6 .u-text-1 {
-    font-size: 1.875rem;
+    font-size: 1.8rem;
   }
 
   .u-section-6 .u-text-2 {
