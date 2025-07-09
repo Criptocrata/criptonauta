@@ -522,31 +522,32 @@
     min-height: 224px;
   }
 }.u-section-4 .u-sheet-1 {
-  min-height: 278px;
+  min-height: 317px;
 }
 
 .u-section-4 .u-group-1 {
-  width: 985px;
-  min-height: 232px;
+  width: 947px;
+  min-height: 317px;
   height: auto;
-  margin: 31px auto 16px;
+  margin: 0 78px 0 auto;
 }
 
 .u-section-4 .u-container-layout-1 {
-  padding: 5px 30px 17px;
+  padding: 4px 30px 17px;
 }
 
 .u-section-4 .u-text-1 {
-  margin: 0 auto 0 0;
+  margin: 1px auto 0 0;
 }
 
 .u-section-4 .u-text-2 {
-  margin: 12px 0 0;
+  margin: 21px 0 0;
 }
 
 @media (max-width: 1199px) {
   .u-section-4 .u-group-1 {
     width: 940px;
+    margin-right: 0;
     height: auto;
   }
 }

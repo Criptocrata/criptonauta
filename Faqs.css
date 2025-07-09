@@ -8,17 +8,17 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
-  margin: 60px auto 0;
+  margin: 35px auto 0;
 }
 
 .u-section-1 .u-list-1 {
-  margin-top: 60px;
+  margin-top: 17px;
   margin-bottom: 60px;
 }
 
 .u-section-1 .u-repeater-1 {
   grid-template-columns: repeat(2, calc(50% - 17.5px));
-  min-height: 345px;
+  min-height: 906px;
   grid-auto-columns: calc(50% - 17.5px);
   --gap: 35px;
 }
@@ -129,7 +129,7 @@
 
 @media (max-width: 1199px) {
   .u-section-1 .u-repeater-1 {
-    min-height: 284px;
+    min-height: 747px;
     grid-gap: 35px;
   }
 }
