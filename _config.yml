@@ -1,0 +1,23 @@
+title: Criptonauta
+url: "https://criptonauta.xyz"
+baseurl: ""
+theme: minima
+
+# Plugins permitidos por GitHub Pages
+plugins:
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# Asegura que SOLO el blog use layouts del tema
+defaults:
+  - scope:
+      path: "blog"
+    values:
+      layout: post
+  - scope:
+      path: ""
+    values:
+      # evita que Jekyll toque assets típicos
+      sitemap: false
