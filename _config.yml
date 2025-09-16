@@ -1,6 +1,4 @@
-cat > _config.yml <<'EOF'
 title: Criptonauta
-url: "https://criptonauta.xyz"
-baseurl: ""
+description: "Bitcoin, privacidad y seguridad"
 theme: minima
-EOF
+baseurl: ""
