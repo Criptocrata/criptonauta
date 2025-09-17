@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <h1>Artículos de interés</h1>
+  <p>Bitcoin, privacidad, seguridad operativa y estrategias prácticas para inversores.</p>
+</section>
+
+<section class="grid">
+  {% assign posts_list = site.posts %}
+  {% if posts_list.size == 0 %}
+    <p>No hay artículos todavía.</p>
+  {% endif %}
+
+  {% for post in posts_list %}
+  <article class="card">
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p class="meta">{{ post.date | date: "%d %b %Y" }}</p>
+    <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+    <a class="btn" href="{{ post.url | relative_url }}">Leer más</a>
+  </article>
+  {% endfor %}
+</section>
