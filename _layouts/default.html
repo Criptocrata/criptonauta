@@ -3,12 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- TÍTULO DE LA PESTAÑA -->
     <title>{{ site.title }} - {{ page.title | default: 'Blog' }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/css/blog.css' | relative_url }}">
+    <!-- <link rel="icon" href="/favicon.ico">  ← si subes uno, se activará -->
   </head>
   <body>
-    <!-- MENÚ CON ENLACES A SOLOIST -->
     <header class="nav">
       <div class="container nav__inner">
         <div class="brand"><a href="{{ '/' | relative_url }}">Criptonauta</a></div>

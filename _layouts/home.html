@@ -11,10 +11,7 @@ layout: default
 
 <section class="grid">
   {% assign posts_list = site.posts %}
-  {% if posts_list.size == 0 %}
-    <p>No hay artículos todavía.</p>
-  {% endif %}
-
+  {% if posts_list.size == 0 %}<p>No hay artículos todavía.</p>{% endif %}
   {% for post in posts_list %}
   <article class="card">
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>

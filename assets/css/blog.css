@@ -57,3 +57,49 @@ a:hover{text-decoration:underline}
 .card{background:#111827;border:1px solid #1f2937;border-radius:16px}
 .card h2{font-size:1.1rem}
 .btn{background:#f59e0b;color:#0b0b0b}
+
+/* --- Ajuste de tipografía global para parecerse a Soloist --- */
+body{font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, "Helvetica Neue", Arial}
+
+/* --- Hero azul centrado tipo Soloist --- */
+.hero{
+  background: linear-gradient(180deg,#1f3a8a 0%, #142554 60%, #0b1222 100%);
+  color:#fffbeb;
+  text-align:center;
+  padding:3.2rem 0 1.6rem;
+  margin:0 0 1rem 0;
+  border-bottom:1px solid rgba(255,255,255,.06);
+}
+.hero h1{
+  margin:.25rem 0 .5rem 0;
+  font-size:2.35rem;
+  font-weight:800;
+  letter-spacing:.2px;
+}
+.hero p{
+  margin:.2rem auto 0 auto;
+  max-width:840px;
+  color:#e5e7eb;
+}
+
+/* --- Navbar más compacta y con acento ámbar --- */
+.nav{background:#0b1222;border-bottom:1px solid #111827}
+.nav__inner{height:60px}
+.brand a{color:#f59e0b;font-weight:800;letter-spacing:.2px}
+.menu a{margin-left:1rem;color:#e5e7eb}
+.menu a.active{color:#f59e0b;font-weight:700}
+
+/* --- Tarjetas y botones --- */
+.card{background:#111827;border:1px solid #1f2937;border-radius:16px;box-shadow:0 6px 18px rgba(0,0,0,.25)}
+.btn{background:#f59e0b;color:#0b0b0b;border-radius:12px;padding:.5rem .9rem;font-weight:700}
+
+/* --- Estilo del contenido de los posts (lectura cómoda) --- */
+.post-wrap{max-width:820px;margin:0 auto}
+.post-wrap h1{font-size:2rem;margin:0 0 .6rem}
+.post-wrap h2{font-size:1.4rem;margin:1.25rem 0 .4rem}
+.post-wrap p{margin:.75rem 0}
+.post-wrap img{max-width:100%;border-radius:12px}
+.post-meta{color:#9ca3af;font-size:.95rem;margin:.2rem 0 1rem}
+blockquote{margin:1rem 0;padding:.6rem .9rem;border-left:4px solid #f59e0b;background:#0f162d;border-radius:6px}
+pre,code{background:#0f162d;border:1px solid #1f2937;border-radius:8px}
+pre{padding:.8rem 1rem;overflow:auto}
