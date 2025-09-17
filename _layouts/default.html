@@ -3,17 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+    <!-- TÍTULO DE LA PESTAÑA -->
+    <title>{{ site.title }} - {{ page.title | default: 'Blog' }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/blog.css' | relative_url }}">
   </head>
   <body>
+    <!-- MENÚ CON ENLACES A SOLOIST -->
     <header class="nav">
       <div class="container nav__inner">
         <div class="brand"><a href="{{ '/' | relative_url }}">Criptonauta</a></div>
         <nav class="menu">
           <a href="https://criptonauta.xyz/">Inicio</a>
-          <a href="https://criptonauta.xyz/quien-soy.html">Quién Soy</a>
-          <a href="https://criptonauta.xyz/contacto.html">Contacto</a>
+          <a href="https://criptonauta.xyz/recursos">Recursos</a>
           <a href="https://criptonauta.xyz/tienda">Tienda</a>
           <a class="active" href="{{ '/' | relative_url }}">Blog</a>
         </nav>

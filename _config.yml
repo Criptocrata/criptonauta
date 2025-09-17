@@ -1,9 +1,8 @@
 title: Criptonauta
-description: "Artículos sobre Bitcoin, privacidad y seguridad"
+description: "Cripto-artículos de interés"
 url: https://blog.criptonauta.xyz
 baseurl: ""
 lang: es
 timezone: Europe/Madrid
 theme: minima
-# Si quieres mostrar solo extractos en la home, deja esto en true
 show_excerpts: true
