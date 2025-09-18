@@ -1,0 +1,17 @@
+backend:
+  name: git-gateway     # En el Paso 2 activaremos Netlify Identity + Git Gateway
+media_folder: "assets/uploads"   # dónde se guardan las imágenes en el repo
+public_folder: "/assets/uploads" # cómo se referencian en la web
+locale: "es"
+
+collections:
+  - name: "posts"
+    label: "Artículos"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Fecha",  name: "date",  widget: "datetime" }
+      - { label: "Resumen (opcional)", name: "excerpt", widget: "text", required: false }
+      - { label: "Contenido", name: "body", widget: "markdown" }
