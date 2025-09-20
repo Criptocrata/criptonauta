@@ -6,14 +6,18 @@ permalink: /blog/
 
 <section class="posts-index">
   <h1 class="page-title">Artículos de interés</h1>
+  <p style="text-align:center; margin-bottom:2rem;">
+    Bitcoin, privacidad, seguridad operativa y estrategias prácticas para inversores.
+  </p>
 
   {% for post in site.posts %}
     <article class="post-card">
       <h2 class="post-title">
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       </h2>
+
       {% if post.date %}
-        <p class="post-date">{{ post.date | date: "%-d %b %Y" }}</p>
+        <p class="post-date">{{ post.date | date: "%d %b %Y" }}</p>
       {% endif %}
 
       <div class="post-intro">
@@ -25,9 +29,9 @@ permalink: /blog/
         {% endif %}
       </div>
 
-      <p><a class="read-more" href="{{ post.url | relative_url }}">Leer más →</a></p>
+      <p class="read-more">
+        <a href="{{ post.url | relative_url }}">Leer más</a>
+      </p>
     </article>
-    <hr>
   {% endfor %}
 </section>
-blog.html
