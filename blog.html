@@ -10,7 +10,7 @@ permalink: /blog/
     Bitcoin, privacidad, seguridad operativa y estrategias prácticas para inversores.
   </p>
 
-  {% for post in site.posts %}
+  {% for post in site.posts.docs %}
     <article class="post-card">
       <h2 class="post-title">
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
