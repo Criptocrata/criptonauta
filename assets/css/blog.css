@@ -1,105 +1,47 @@
-:root{
-  --bg:#0f172a;        /* fondo principal (azul muy oscuro) */
-  --pan:#111827;       /* paneles */
-  --text:#e5e7eb;      /* texto */
-  --muted:#9ca3af;     /* texto secundario */
-  --accent:#f59e0b;    /* acento (ámbar) */
-  --link:#fbbf24;      /* enlaces */
-  --card:#111827; 
-  --border:#1f2937;
-}
-*{box-sizing:border-box}
-html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial}
-a{color:var(--link);text-decoration:none}
-a:hover{text-decoration:underline}
-.container{max-width:1100px;margin:0 auto;padding:0 1rem}
+/* assets/css/blog.css */
 
-/* NAV */
-.nav{position:sticky;top:0;z-index:10;background:#0b1222;border-bottom:1px solid var(--border)}
-.nav__inner{display:flex;align-items:center;justify-content:space-between;height:58px}
-.brand a{font-weight:700;color:#fffbeb}
-.menu a{margin-left:1rem;color:#e5e7eb}
-.menu a.active{color:var(--accent);font-weight:700}
-
-/* CONTENIDO */
-.content{padding:2rem 0}
-
-/* HERO */
-.hero{padding:1.5rem 0 0.5rem 0;border-bottom:1px solid var(--border);margin-bottom:1rem}
-.hero h1{margin:0 0 .25rem 0;font-size:2rem}
-.hero p{color:var(--muted);margin:0}
-
-/* GRID POSTS */
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem;margin-top:1rem}
-.card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:1rem}
-.card h2{margin:.2rem 0 .4rem 0;font-size:1.1rem}
-.card .meta{color:var(--muted);font-size:.9rem;margin:.2rem 0 .6rem 0}
-.btn{display:inline-block;margin-top:.4rem;background:var(--accent);color:#0b0b0b;padding:.45rem .75rem;border-radius:10px;font-weight:700}
-.btn:hover{text-decoration:none;filter:brightness(1.05)}
-
-/* FOOTER */
-.footer{border-top:1px solid var(--border);margin-top:2rem;padding:1rem 0;color:var(--muted);background:#0b1222}
-
-/* --- OVERRIDES SOLOIST-LIKE --- */
-.hero{
-  background:#1f3a8a;            /* azul del hero */
-  color:#fffbeb;
-  text-align:center;
-  padding:3rem 0 1.5rem;
-  border-bottom:1px solid rgba(255,255,255,.08);
-  margin-bottom:1rem;
-}
-.hero h1{margin:0 0 .5rem 0;font-size:2.2rem}
-.hero p{margin:.25rem auto 0 auto;max-width:820px;color:#e5e7eb}
-
-.grid{max-width:1100px;margin:1rem auto 0 auto}
-
-.card{background:#111827;border:1px solid #1f2937;border-radius:16px}
-.card h2{font-size:1.1rem}
-.btn{background:#f59e0b;color:#0b0b0b}
-
-/* --- Ajuste de tipografía global para parecerse a Soloist --- */
-body{font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, "Helvetica Neue", Arial}
-
-/* --- Hero azul centrado tipo Soloist --- */
-.hero{
-  background: linear-gradient(180deg,#1f3a8a 0%, #142554 60%, #0b1222 100%);
-  color:#fffbeb;
-  text-align:center;
-  padding:3.2rem 0 1.6rem;
-  margin:0 0 1rem 0;
-  border-bottom:1px solid rgba(255,255,255,.06);
-}
-.hero h1{
-  margin:.25rem 0 .5rem 0;
-  font-size:2.35rem;
-  font-weight:800;
-  letter-spacing:.2px;
-}
-.hero p{
-  margin:.2rem auto 0 auto;
-  max-width:840px;
-  color:#e5e7eb;
+/* Títulos centrados */
+.page-title,
+.post-title,
+.post-header h1,
+.post-header h2 {
+  text-align: center;
+  margin: 0 0 .6rem 0;
 }
 
-/* --- Navbar más compacta y con acento ámbar --- */
-.nav{background:#0b1222;border-bottom:1px solid #111827}
-.nav__inner{height:60px}
-.brand a{color:#f59e0b;font-weight:800;letter-spacing:.2px}
-.menu a{margin-left:1rem;color:#e5e7eb}
-.menu a.active{color:#f59e0b;font-weight:700}
+/* Fecha bajo el título */
+.post-date {
+  text-align: center;
+  opacity: .75;
+  font-size: .95rem;
+  margin: 0 0 .75rem 0;
+}
 
-/* --- Tarjetas y botones --- */
-.card{background:#111827;border:1px solid #1f2937;border-radius:16px;box-shadow:0 6px 18px rgba(0,0,0,.25)}
-.btn{background:#f59e0b;color:#0b0b0b;border-radius:12px;padding:.5rem .9rem;font-weight:700}
+/* Intro y cuerpo justificados */
+.post-intro p,
+.post-content p {
+  text-align: justify;
+  line-height: 1.65;
+  margin: 0 0 .9rem 0;
+}
 
-/* --- Estilo del contenido de los posts (lectura cómoda) --- */
-.post-wrap{max-width:820px;margin:0 auto}
-.post-wrap h1{font-size:2rem;margin:0 0 .6rem}
-.post-wrap h2{font-size:1.4rem;margin:1.25rem 0 .4rem}
-.post-wrap p{margin:.75rem 0}
-.post-wrap img{max-width:100%;border-radius:12px}
-.post-meta{color:#9ca3af;font-size:.95rem;margin:.2rem 0 1rem}
-blockquote{margin:1rem 0;padding:.6rem .9rem;border-left:4px solid #f59e0b;background:#0f162d;border-radius:6px}
-pre,code{background:#0f162d;border:1px solid #1f2937;border-radius:8px}
-pre{padding:.8rem 1rem;overflow:auto}
+/* Tarjetas del listado */
+.post-card {
+  margin: 1.25rem 0;
+}
+
+/* Enlace Leer más */
+.read-more {
+  display: inline-block;
+  margin-top: .25rem;
+  text-decoration: none;
+}
+
+/* Imágenes fluidas */
+.post-intro img,
+.post-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: .5rem auto;
+}
