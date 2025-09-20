@@ -1,48 +1,77 @@
-<!doctype html>
-<html lang="{{ site.lang | default: 'es' }}">
-  
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ site.title }} - {{ page.title | default: 'Blog' }}</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <style>
-/* ===== Estilos del blog integrados (no más rutas) ===== */
-.page-title, .post-title, .post-header h1, .post-header h2 { text-align:center; margin:0 0 .6rem; }
-.post-date { text-align:center; opacity:.75; font-size:.95rem; margin:0 0 .75rem; }
-.post-intro p, .post-content p { text-align:justify; line-height:1.65; margin:0 0 .9rem; }
-.post-card { margin:1.25rem 0; }
-.read-more { display:inline-block; margin-top:.25rem; text-decoration:none; }
-.post-intro img, .post-content img { max-width:100%; height:auto; display:block; margin:.5rem auto; }
-/* ===== Fin ===== */
+<style>
+/* ===== Estilos del blog integrados ===== */
+
+/* Fondo y texto */
+body {
+  background-color: #0b1221; /* azul oscuro */
+  color: #e5e7eb; /* gris claro */
+  font-family: Inter, sans-serif;
+}
+
+/* Título principal */
+.page-title {
+  text-align: center;
+  color: #facc15; /* amarillo */
+  font-size: 2rem;
+  margin: 1rem 0 2rem;
+}
+
+/* Tarjetas de artículos */
+.post-card {
+  background: #111827; /* un gris azulado más claro que el fondo */
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+  margin: 1.25rem 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
+
+/* Títulos de posts */
+.post-title a {
+  color: #facc15;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.post-title a:hover {
+  color: #fde047; /* amarillo más claro */
+}
+
+/* Fecha */
+.post-date {
+  text-align: center;
+  opacity: .8;
+  font-size: .9rem;
+  margin: 0 0 0.75rem;
+}
+
+/* Intro y cuerpo justificados */
+.post-intro p, .post-content p {
+  text-align: justify;
+  line-height: 1.65;
+  margin: 0 0 .9rem;
+}
+
+/* Botón Leer más */
+.read-more a {
+  display: inline-block;
+  background: #facc15;
+  color: #000;
+  font-weight: bold;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+.read-more a:hover {
+  background: #fde047;
+}
+
+/* Imágenes fluidas */
+.post-intro img, .post-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: .5rem auto;
+}
+
+/* ===== Fin estilos ===== */
 </style>
-
-
-    <!-- <link rel="icon" href="/favicon.ico">  ← si subes uno, se activará -->
-  </head>
-  <body>
-    <header class="nav">
-      <div class="container nav__inner">
-        <div class="brand"><a href="{{ '/' | relative_url }}">Criptonauta</a></div>
-        <nav class="menu">
-          <a href="https://criptonauta.xyz/">Inicio</a>
-          <a href="https://criptonauta.xyz/recursos">Recursos</a>
-          <a href="https://criptonauta.xyz/tienda">Tienda</a>
-          <a class="active" href="{{ '/' | relative_url }}">Blog</a>
-        </nav>
-      </div>
-    </header>
-
-    <main class="container content">
-      {{ content }}
-    </main>
-
-    <footer class="footer">
-      <div class="container">
-        <p>© {{ "now" | date: "%Y" }} Criptonauta — Bitcoin, privacidad y seguridad.</p>
-      </div>
-    </footer>
-  </body>
-</html>
