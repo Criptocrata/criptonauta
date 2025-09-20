@@ -8,7 +8,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ '/assets/css/blog.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+    <style>
+/* ===== Estilos del blog integrados (no más rutas) ===== */
+.page-title, .post-title, .post-header h1, .post-header h2 { text-align:center; margin:0 0 .6rem; }
+.post-date { text-align:center; opacity:.75; font-size:.95rem; margin:0 0 .75rem; }
+.post-intro p, .post-content p { text-align:justify; line-height:1.65; margin:0 0 .9rem; }
+.post-card { margin:1.25rem 0; }
+.read-more { display:inline-block; margin-top:.25rem; text-decoration:none; }
+.post-intro img, .post-content img { max-width:100%; height:auto; display:block; margin:.5rem auto; }
+/* ===== Fin ===== */
+</style>
+
 
 
     <!-- <link rel="icon" href="/favicon.ico">  ← si subes uno, se activará -->
